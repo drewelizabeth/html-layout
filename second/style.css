@@ -1,0 +1,45 @@
+.main {
+    width: 700px;
+    height: 700px;
+    display: flex;
+
+}
+
+.left {
+    width: 33%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+
+.middle {
+    width: 33%;
+    height: 100%;
+    background-color: mediumseagreen;
+}
+
+
+.right {
+    width: 33%;
+    height: 100%;
+    background-color: greenyellow;
+    position: relative;
+
+}
+
+.corner {
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: sans-serif;
+    color: white;
+    font-weight: heavy;
+    font-size: 20px;
+}
